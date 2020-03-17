@@ -373,10 +373,10 @@ commander@^3.0.2:
   resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
   integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
 
-common-schematics@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/common-schematics/-/common-schematics-0.0.4.tgz#4960361ab1fb1a094b0bef9bc7fb9fd34caf6433"
-  integrity sha512-jl3ocI8bGChPbTMevXrg/vgo9c4CN+6Qz2uWJWoLO2vpErBexdZKI1MWFW3ya+JEhVjLljLLBeRQdtiUxw2vZw==
+common-schematics@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/common-schematics/-/common-schematics-0.0.5.tgz#1cb9ce6d970ecbf3bca0375410b1a5eeeb479b43"
+  integrity sha512-gh0Z+292x7nyOlO04v0e2GEoT1Xhe2jcueXYhYH+Wkwle5a7R5i9tgvYy+CzvhkhpJFX63QJfyeYv2ZlDKl0AQ==
   dependencies:
     commander "^3.0.2"
     fs-extra "^8.1.0"
@@ -1035,10 +1035,15 @@ minimist@0.0.8:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
-minimist@1.2.0, minimist@^1.2.0:
+minimist@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+
+minimist@^1.2.0, minimist@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.2.tgz#b00a00230a1108c48c169e69a291aafda3aacd63"
+  integrity sha512-rIqbOrKb8GJmx/5bc2M0QchhUouMXSpd1RTclXsB41JdL+VtnojfaJR+h7F9k18/4kHUsBFgk80Uk+q569vjPA==
 
 mkdirp@^0.5.1:
   version "0.5.1"
